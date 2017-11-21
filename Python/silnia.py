@@ -4,13 +4,13 @@
 # n! = 1 * 2 * ... * n dla N+ - {0, 1}
 
 
-
 def silnia_it(n):
     """Funkcja oblicza iteracyjnie silnię liczby naturalnej"""
     wynik = 1
     for i in range(2, n+1):
         wynik = wynik * i
     return wynik
+
 
 def main(args):
 
