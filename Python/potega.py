@@ -27,7 +27,7 @@ def main(args):
     assert potega_it(2, 3) == 8
 
 
-    # print("Wynik: ", potega_it(a, n))
+    print("Wynik: ", potega_it(a, n))
 
     return 0
 

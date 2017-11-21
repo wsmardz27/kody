@@ -10,21 +10,20 @@ def euklides(a, b):
             b = b - a
     return a
 
-    def euklides2(a, b):
-        while a > 0:
-            a = a % b
-            b = b - a
+def euklides2(a, b):
+    while a > 0:
+        a = a % b
+        b = b - a
     return b
 
 
 def main(args):
     a = int(input("Podaj liczbę: "))
     b = int(input("Podaj liczbę: "))
-    assert euklides(1989, 867) == 51
-    assert euklides(12, 6) == 6
     assert euklides2(1989, 867) == 51
     assert euklides2(12, 6) == 6
     print("Nwd({:d}, {:d}) = {:d}".format(a, b, euklides2(a, b)))
+    
 
     return 0
 
