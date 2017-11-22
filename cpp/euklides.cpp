@@ -2,16 +2,7 @@
 
 using namespace std;
 
-int main(int argc, char **argv)
-{
-    int a;
-    int b;
-    
-    cout << "Podaj liczbę: ";
-    cin >> a;
-    cout << "Podaj liczbę: ";
-    cin >> b;
-    
+int euklides(int a, int b) {
     while(a != b)
     {
         if (a > b)
@@ -19,6 +10,16 @@ int main(int argc, char **argv)
         else
             b = b - a;
     }
+    
+    }
+
+int main(int argc, char **argv)
+{
+    
+    cout << "Podaj liczbę: ";
+    cin >> a;
+    cout << "Podaj liczbę: ";
+    cin >> b;
     
     cout << "Największy wspólny dzielnik  =  " << a << endl;
    
