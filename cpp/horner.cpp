@@ -17,27 +17,27 @@ float horner_it(int k, float tbwsp[], float x){
         wynik = wynik * x + tbwsp[i];
     }
     return wynik;
-}  
+}
 
 
 
 int main(int argc, char **argv)
-{   
+{
     float x;
     float wspolczynniki[4];
     int stopien = 3;
     cout << "Podaj x: " << endl;
     cin >> x;
-    
+
     for(int i = 0; i < 4 ; i ++){
         cout << "Podaj współczynnik: ";
         cin >> wspolczynniki[i];
     }
-        
+
     cout << "Wartość wielomianu: " << horner_it(stopien, wspolczynniki, x) << endl;
-        
-    
-	
+
+
+
 	return 0;
 }
 
