@@ -12,6 +12,17 @@ def potega_it(podst, wykladnik):
         wynik = wynik * podst
     return wynik
 
+
+# a0 = 1 - warunek brzegowy
+# an = a(n-1) * a dla n > 0
+
+
+def potega_rek(podst, wykladnik):
+    if wykladnik == 0:
+        return 1
+    return potega_rek(podst, wykladnik - 1) * podst
+
+
 def main(args):
     # pobierz od użytkownika podstawę i wykładnik
     # i przypisz do odpowiednich zmiennych
@@ -25,9 +36,9 @@ def main(args):
     assert potega_it(10, 0) == 1
     assert potega_it(10, 1) == 10
     assert potega_it(2, 3) == 8
+    assert potega_rek(2, 3) == 8
 
-
-    print("Wynik: ", potega_it(a, n))
+    print("Wynik: ", potega_rek(podst, wykladnik))
 
     return 0
 
