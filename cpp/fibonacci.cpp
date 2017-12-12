@@ -11,7 +11,7 @@ int fib_iter(int n){
     int a = 0;
     int b = 1;
     if (n == 0) {
-        cout >> 0;
+        cout << 0;
         return 0;
     }
     cout << a;
@@ -19,19 +19,25 @@ int fib_iter(int n){
         tmp = b
         b = a + b
         a = tmp
-
         }
     }
-    
+
 
 int fib_iter2(int n){
     int a = 0;
     int b = 1;
-    
+
     while(n > 0){}
-    
+
     }
 
+int fib_rek(int n)
+{
+    if (n == 1)
+        return 1;
+    else
+        return fib_rek((n - 2) + (n - 1));
+}
 
 int main(int argc, char **argv)
 {
