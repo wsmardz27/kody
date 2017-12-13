@@ -16,9 +16,9 @@ int fib_iter(int n){
     }
     cout << a;
     for(int i=2; i < n; i++){
-        tmp = b
-        b = a + b
-        a = tmp
+    cout << b << " ";
+        b += a;
+        a = b-a;
         }
     }
 
@@ -33,14 +33,14 @@ int fib_iter2(int n){
 
 int fib_rek(int n)
 {
-    if (n == 1)
+    if (n < 2)
         return 1;
     else
         return fib_rek((n - 2) + (n - 1));
 }
 
 int main(int argc, char **argv)
-{
+{   fib_rek
 
 	return 0;
 }

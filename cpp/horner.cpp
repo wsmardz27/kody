@@ -19,6 +19,7 @@ float horner_it(int k, float tbwsp[], float x){
     return wynik;
 }
 
+float horner_rek(int k, )
 
 
 int main(int argc, char **argv)
