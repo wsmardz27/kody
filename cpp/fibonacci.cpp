@@ -40,7 +40,9 @@ int fib_rek(int n)
 }
 
 int main(int argc, char **argv)
-{   fib_rek
+{   int n;
+
+    cout << fib_rek(n) << endl;
 
 	return 0;
 }

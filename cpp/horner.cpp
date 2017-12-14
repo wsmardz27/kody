@@ -19,7 +19,12 @@ float horner_it(int k, float tbwsp[], float x){
     return wynik;
 }
 
-float horner_rek(int k, )
+float horner_rek(int k, float tbwsp[], float x){
+    if (k == 0)
+        return tbwsp[0] * 4;
+    else
+        return horner_rek(k - 1, tbwsp, x) * x + tbwsp[k];
+}
 
 
 int main(int argc, char **argv)
@@ -36,6 +41,7 @@ int main(int argc, char **argv)
     }
 
     cout << "Wartość wielomianu: " << horner_it(stopien, wspolczynniki, x) << endl;
+    cout << "Wartość wielomianu: " << horner_rek(stopien, wspolczynniki, x) << endl;
 
 
 

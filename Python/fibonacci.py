@@ -48,6 +48,7 @@ def fib_rek(n):
 
 def main(args):
     fib_iter(20)
+    fib_rek(n)
     return 0
 
 
