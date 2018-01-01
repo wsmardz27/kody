@@ -18,8 +18,7 @@ def sort_wyb(lista):
 		for j in range(i + 1, len(lista)):
 			if lista[j] < lista[k]:
 				k = j
-                
-        lista[i], lista[k] = lista[k], lista[i]
+                lista[j], lista[k] = lista[k], lista[j]
     return lista
     
     
