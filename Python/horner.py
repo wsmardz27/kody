@@ -9,7 +9,7 @@ def horner(k, tbwsp, x):
     return wynik
 
 
-def horner_rek(k, tbwsp[], x):
+def horner_rek(k, tbwsp, x):
     if k == 0:
         return tbwsp[0] * 4
     return horner_rek(k - 1, tbwsp, x) * x + tbwsp[k]

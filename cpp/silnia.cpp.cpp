@@ -14,6 +14,7 @@ int main(int argc, char **argv)
 {
     int liczba;
     int silnia = 1;
+    int n;
 
     cout << "Podaj liczbe" << endl;
     cin >> liczba;
@@ -25,6 +26,8 @@ int main(int argc, char **argv)
         cout << "1 " << endl;
     else
         cout << silnia << endl;
+
+    cout << silnia_rek(n) << endl;
     return 0;
 }
 

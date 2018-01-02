@@ -4,15 +4,15 @@
 using namespace std;
 
 int potega_it(int podstawa, int wykladnik){
+    int wynik = 1;
     for (int i = 0; i < wykladnik; i++)
         wynik *= podstawa;
 
     if (wykladnik == 0)
         cout << "1" << endl;
-
     else
         cout << wynik << endl;
-    
+
 }
 
 int potega_rek(int podstawa, int wykladnik)
@@ -32,8 +32,8 @@ int main(int argc, char **argv)
     cin >> podstawa;
     cout <<"Podaj wyk³adnik: " ;
     cin >> wykladnik;
-    
-    cout << potega_rek(int podstawa, int wykladnik) << endl; 
+
+    cout << potega_rek(podstawa, wykladnik) << endl;
 
     return 0;
 }
