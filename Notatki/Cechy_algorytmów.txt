@@ -18,3 +18,9 @@ Algorytm może być częściowo poprawny
 Wnioskowanie indukcyjne  to metoda wyprowadzania wniosków, wnioskowanie z pojedynczych informacji
 Dedukcja - od ogółu do szczegółu
 W poprawności algorytmów trzeba uważać na błędy logiczne
+
+Złożoność czasowa - funkcja wielkosci zbioru danych, oznaczamy O(n), O(n^2), O(n!), zależy od liczby operacji niezbędnych do ukończenia algorytmu
+
+Złożoność pamięciowa - ile pamięci potrzebuje algorytm, by ukończyć działanie
+
+Efektywność algorytmu zależy od typu danych 

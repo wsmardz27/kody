@@ -15,6 +15,7 @@ int main(int argc, char **argv)
     cin >> n;
     
     int i = 1;
+    // for(int i = 1; i <= n; i += 2)
     while (i < n){
         i += 2;
         cout << i << endl;
