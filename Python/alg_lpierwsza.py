@@ -9,7 +9,7 @@ def main(args):
     
     i = 2
     while n % i != 0:
-        if i * i > n:
+        if i * i <= n:
             print("Liczba pierwsza")
         i += 1
     print("Liczba złożona")
