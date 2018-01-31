@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:15:07+01:00
+
+====== Kompresja ======
+Created środa 31 styczeń 2018
+
+Unicode
+UTF - 8 wykorzystuje od 1 do 6 bajtów do zakodowania znaku
+
+Sposoby kompresji:
+1. Kod Morse'a
+000111000 = SOS
+
+Kompresja może być stratna(np. zdjecia, obrazki jpeg, png, bmp) i bezstratna(takie, które muszą być zapisywane bez straty danych np xllx, pttx, otd)
+
