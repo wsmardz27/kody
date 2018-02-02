@@ -9,8 +9,27 @@ Unicode
 UTF - 8 wykorzystuje od 1 do 6 bajtów do zakodowania znaku
 
 Sposoby kompresji:
-1. Kod Morse'a
+1. Kod Morse'a (algorytm statystyczny)
+2. ...---... = SOS
 000111000 = SOS
 
 Kompresja może być stratna(np. zdjecia, obrazki jpeg, png, bmp) i bezstratna(takie, które muszą być zapisywane bez straty danych np xllx, pttx, otd)
 
+Bitrate(przepływność) - ilość danych na sekunde
+mp3 - 128 bitów/s
+CD - 256 bitów/s
+
+kb - kilobit; Mb - megabit; MG - megabajt
+
+NUL -  0
+LF(koniec linii) - 10
+CR - 13
+Znak końca linii w systemach Windows składa sie z LF i CR
+
+Algorytm słownikowy
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain  <3,3> Spa<9, 3> falls m<11, 3>ly on <34,3> pl<15,3>. ⇒ 
+ile znaków wstecz ⇒ 6 bitów
+długość ciągu ⇒ 2 bity
+
+Współczynnik kompresji Rc = Vk/ Vnk * 100
