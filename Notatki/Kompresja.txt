@@ -28,8 +28,11 @@ Znak końca linii w systemach Windows składa sie z LF i CR
 
 Algorytm słownikowy
 The rain in Spain falls mainly on the plain. ⇒ 44 znaki
-The rain  <3,3> Spa<9, 3> falls m<11, 3>ly on <34,3> pl<15,3>. ⇒ 
+The rain  <3,3> Spa<9, 3> falls m<11, 3>ly on <34,3> pl<15,3>. ⇒ 33 znaki
 ile znaków wstecz ⇒ 6 bitów
 długość ciągu ⇒ 2 bity
 
-Współczynnik kompresji Rc = Vk/ Vnk * 100
+Współczynnik kompresji Rc = Vk/ Vnk * 10 
+Rc = 33/44 * 100% = 75%
+
+Archiwizery: ZIP, RAR, 7z, TAR
