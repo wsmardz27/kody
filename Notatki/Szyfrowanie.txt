@@ -11,4 +11,14 @@ Odczytanie ukrytej informacji to DESZYFRACJA(kryptoanaliza)
 Do odszyfrowania szyfrogramu potrzebujemy: algorytm szyfrowania oraz klucz.
 
 1. Szyfry podstawieniowe
-Szyfr Cezara
+Szyfr Cezara, klucz to odległość zastępnika
+
+2. Szyfry przestawieniowe - zapis tekstu w wierszach o ustalonej długości
+Klucz to ilość kolumn, na które dzielimy tekst
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND.......
+TOHAOBENBEQDETU.OHE.
