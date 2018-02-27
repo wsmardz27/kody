@@ -21,4 +21,20 @@ TOBEORNOTT
 OBETHATIST
 HEQUESTION
 AND.......
-TOHAOBENBEQDETU.OHE.
+TOHAOBENBEQDETU
+
+Zaszyfruj swoje dane osobowe, tj.:
+imie, nazwisko, data urodzenia, miejsce urodzenia przy użyciu podanych szyfrów
+W odpowiedzi podaj szyfrogram i klucz.
+
+
+Szyfrowanie asymetryczne :
+protokół https, ssl, tls
+certyfikat - tożsamość strony
+pretty good privacy - narzędzie do szyfrowania poczty elektronicznej
+podpis elektroniczny
+
+Klucz publiczny - ciąg cyfr który podajemy do publicznej wiadomości    
+Klucz prywatny
+Algorytm rsa
+ssh
