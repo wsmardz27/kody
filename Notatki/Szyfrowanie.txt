@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-02-06T12:59:02+01:00
 
@@ -26,6 +26,9 @@ TOHAOBENBEQDETU
 Zaszyfruj swoje dane osobowe, tj.:
 imie, nazwisko, data urodzenia, miejsce urodzenia przy użyciu podanych szyfrów
 W odpowiedzi podaj szyfrogram i klucz.
+1. Szyfr Cezara: Szyfrogram: Dpravyph Zthyka 38 qbaeajfsojlb 3111 Zhukvtplya  klucz: 7
+2. Przestawieniowy: Wrmiiakart dosz (klucz 5) 2aii27zeko dra0pzn 0 (klucz 4) Smainedroz (klucz 5)
+3. Vigenere Szygrogram: Vhjsnqhz Rlzqcy 27 ozycyhdqmhjz 2000 Rzmcnlhdqy hasło: 8
 
 
 Szyfrowanie asymetryczne :
