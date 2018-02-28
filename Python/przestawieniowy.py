@@ -5,6 +5,7 @@
 def szyfruj(tekst, klucz):
 	szyfrogram = ""
     reszta = len(tekst) % klucz
+    
     if reszta:
         tekst += (klucz - reszta) * "."
 
