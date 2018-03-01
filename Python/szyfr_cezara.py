@@ -4,9 +4,10 @@
 
 def szyfruj(tekst, klucz):
     """Szyfrowanie tekstu za pomoca szyfru Cezara"""
-    szyfrogram = ""
     klucz = klucz % 26
-    
+    szyfrogram = ""
+    # znaki_pl = ["Ą", "Ć", "Ę", "Ł", "Ń", "Ó", "Ś", "Ź", "Ż", "ą", "ć", "ę",
+    #         "ł", "ń", "ó", "ś", "ź", "ż"]
     for i in tekst:
         ascii = ord(i) + klucz
         if ord(i) == 32:
@@ -20,7 +21,8 @@ def szyfruj(tekst, klucz):
 
     return szyfrogram
 
-def deszyfruj(szyfrogram, klucz):
+
+def deszyfruj(szyfrogram, klucz): # troche duzo ifow, ale narazie nwm jak to przyspieszyc i uproscic. wazne ze dziala
     tekst = ""
     for i in szyfrogram:
         ascii = ord(i) - klucz
@@ -37,21 +39,21 @@ def deszyfruj(szyfrogram, klucz):
         tekst += chr(ascii)
 
     return tekst
-   
 
-#  obsłużyć małe i duże litery
-#  obsłużyć spacje
+# oblsłuzyć male i duże litery
+# obsluzyc spacje
 
 
 def main(args):
     tekst = input("Podaj tekst: ")
     klucz = int(input("Podaj klucz: "))
     szyfrogram = szyfruj(tekst, klucz)
+    # szyfrogram = "VCBIU FHCDUD MHVW SURVWB"
+    # klucz = 3
     print(szyfrogram)
     print(deszyfruj(szyfrogram, klucz))
 
     return 0
-
 
 if __name__ == '__main__':
     import sys
