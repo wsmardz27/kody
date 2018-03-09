@@ -45,3 +45,22 @@ Pierwsze systemy były przeznaczone dla jednego użytkownika a obecnie dla wielu
 Interface tekstowy był udostępniany w formie terminala
 Interface graficzny(okienkowy)
 
+Systemy operacyjne Microsoft
+MS-DOS
+A, B - litery zarezerowane dla dyskietek elastycznych
+c:\ - katalog główny
+w  Linux ls /
+DOS: c:\
+.. - poziom wyżej
+W Windows pliki muszą mieć rozszerzenia a w Linuxie plik jest rozpoznawany po nagłówku, nie musi byc rozszerzeń
+exe, com 
+Atrybuty: 
+a - plik zapisany na dysku
+r - tylko do odczytu
+h- plik ukryty
+s - plik systemowy
+Max rozmiar pliku to 64 KB
+Dos wykorzystywał tryb rzeczywisty procesora
+Windows 3.11: okienka, pasek tytułu, menu, przyciski minimalizacji/maksymalizacji, ikony
+Microsoft ustandaryzował interface
+windows 8 - interface kafelkowy
