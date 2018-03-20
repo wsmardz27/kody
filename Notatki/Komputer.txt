@@ -64,3 +64,14 @@ Dos wykorzystywał tryb rzeczywisty procesora
 Windows 3.11: okienka, pasek tytułu, menu, przyciski minimalizacji/maksymalizacji, ikony
 Microsoft ustandaryzował interface
 windows 8 - interface kafelkowy
+
+Systemy własnościowe: Windows, Apple
+
+LINUX
+System dostępny dla każdego - open source
+Dystrybucja linuxa składa się z jądra i oprogramowania dodatkowego 
+Dystrybucje linuxa: Debian, ubuntu, linux mint
+Rufus
+Partycja - część dysku
+Wyróżniamy dwa sposoby partycjonowania dysku twardego
+
