@@ -18,3 +18,11 @@ Adres serwera DNS
 Internet - sieć sieci
 Sieć szkieletowa
 Protokół sieciowy np. http, ftp, TCP, IP
+
+Model TCP/IP
+Model OSI
+Aplikacje: protokoły: HTTP, FTP, POP, IMAP - protokoły pocztowe, SSH - do łączenia między komputerami
+mvps hosts
+System DNS - baza rozproszona
+TLD- domeny najwyższego poziomu
+Adres url: protokół:// poddomena/ domena
