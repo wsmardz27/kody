@@ -26,3 +26,13 @@ mvps hosts
 System DNS - baza rozproszona
 TLD- domeny najwyższego poziomu
 Adres url: protokół:// poddomena/ domena
+
+Protokół TCP jest połączeniowy, stanowy i niezawodny
+Port sieciowy, porty o numerach od 0 do 1000 - porty dobrze znane
+Numer sekwencyjny i suma kontrolna zapewniają niezawodność
+UDP
+Protokół IP
+Pula adresów prywatnych i publicznych
+192. 168.3  - adres sieci 
+193. 168. 3. 255 => broadcast
+Router zamienia adresy lokalne na publiczne i odwrotnie
