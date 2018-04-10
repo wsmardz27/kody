@@ -1,4 +1,4 @@
-Content-Type: text/x-zim-wiki
+﻿Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-03-20T12:54:23+01:00
 
@@ -27,6 +27,10 @@ System DNS - baza rozproszona
 TLD- domeny najwyższego poziomu
 Adres url: protokół:// poddomena/ domena
 
+Aplikacje: HTTP,SMTP, FTP,POP
+Transp: TCP, UDP
+Sieci: IP, ICMP
+
 Protokół TCP jest połączeniowy, stanowy i niezawodny
 Port sieciowy, porty o numerach od 0 do 1000 - porty dobrze znane
 Numer sekwencyjny i suma kontrolna zapewniają niezawodność
@@ -36,3 +40,4 @@ Pula adresów prywatnych i publicznych
 192. 168.3  - adres sieci 
 193. 168. 3. 255 => broadcast
 Router zamienia adresy lokalne na publiczne i odwrotnie
+POP35, SMTPS
