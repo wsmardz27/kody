@@ -8,6 +8,7 @@ Created wtorek 20 marzec 2018
 Host- dowolne urządzenie podłączone do sieci
 Serwer - dowolny host udostępniający usługe
 Klient - żąda dostępu do usługi
+Host -> brama domyślna, adres IP, DNS
 
 1. Sieć lokalna: ethernet, kabel zwany skrętką z wtyczką RJ 45, switch - przełącznik sieciowy, topologia gwiazdy, router ma połączyć sieć lokalną z zewnętrzną
 WAN - sieć rozległa
@@ -33,11 +34,17 @@ Sieci: IP, ICMP
 
 Protokół TCP jest połączeniowy, stanowy i niezawodny
 Port sieciowy, porty o numerach od 0 do 1000 - porty dobrze znane
+port  DNS - 53 WWW-80
 Numer sekwencyjny i suma kontrolna zapewniają niezawodność
 UDP
+Diagnistyka: ping , tracet
+Interface: VNC RDC
 Protokół IP
+Do konfiguracji adresów IP służy protokół DHCP
+Adresy MAC są wykorzystywane przez ARP
 Pula adresów prywatnych i publicznych
 192. 168.3  - adres sieci 
 193. 168. 3. 255 => broadcast
 Router zamienia adresy lokalne na publiczne i odwrotnie
 POP35, SMTPS
+
