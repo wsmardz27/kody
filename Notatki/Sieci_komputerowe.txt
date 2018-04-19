@@ -33,11 +33,13 @@ Transp: TCP, UDP
 Sieci: IP, ICMP
 
 Protokół TCP jest połączeniowy, stanowy i niezawodny
+Maska podsieci - adres sieci
 Port sieciowy, porty o numerach od 0 do 1000 - porty dobrze znane
 port  DNS - 53 WWW-80
 Numer sekwencyjny i suma kontrolna zapewniają niezawodność
 UDP
-Diagnistyka: ping , tracet
+Telnet - praca zdalna
+Diagnostyka: ping , tracet
 Interface: VNC RDC
 Protokół IP
 Do konfiguracji adresów IP służy protokół DHCP
@@ -45,6 +47,16 @@ Adresy MAC są wykorzystywane przez ARP
 Pula adresów prywatnych i publicznych
 192. 168.3  - adres sieci 
 193. 168. 3. 255 => broadcast
-Router zamienia adresy lokalne na publiczne i odwrotnie
+192.168.10.255
+192.168.10.0/24
+Router zamienia adresy lokalne na publiczne i odwrotnie, NAT, łączenie sieci
 POP35, SMTPS
+Host dostaje: brama domyślna, adres IP, adres serwera DNS
+HTTPS wykorzystuje SSL
+mechanizmy: vnc, rdc
+tracer ping: ICMP
+do konfiguracji ip: dhcp
+adresy ip: różne, prywatne
+mac:arp
+informacje o konfiguracji sieci można uzyskac za pomocą ip addr lub netstat
 
