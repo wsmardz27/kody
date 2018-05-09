@@ -1,4 +1,4 @@
-﻿Content-Type: text/x-zim-wiki
+Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-03-20T12:54:23+01:00
 
@@ -59,4 +59,5 @@ do konfiguracji ip: dhcp
 adresy ip: różne, prywatne
 mac:arp
 informacje o konfiguracji sieci można uzyskac za pomocą ip addr lub netstat
+http://42.pl/ipcalc/
 
