@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="pl">
-<!--
-   index.html
--->
+{% extends "szablon.html" %}
+{%  block tytul %}Quiz - strona główna{% endblock %}
+{%  block h1 %}Witamy w aplikacji Quiz!{% endblock %}
+{%  block tresc %}
+    <h2> Zapraszamy do rozwiązywania quizu!</h2>
 
-<head>
-<meta charset="utf-8" />
-<title>Czat - Pytania</title>
-</head>
-
-<body>
-    <h1>Lista pytań</h1>
-    
-    {% for obj in query %}
-    <p>
-        <!-- wypisujemy id i treść pytania-->
-        {{ obj.id}} {{ obj.pytanie }}
-    </p>
-    {% endfor %} 
-    
-    
-</body>
-
-</html>
+{% endblock %}

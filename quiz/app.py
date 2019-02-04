@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#
 #  app.py
 #  
-from flask import Flask, g
-from modele import * 
+from flask import g
+from modele import *
 from views import *
+import os
 
 app.config.update(dict(
     SECRET_KEY='bardzotajnyklucz',
-    TYTUL='Czat'
+    TITLE='Czat'
 ))
-
+# DATABASE=os.path.join(app.root_path, baza_nazwa)
 @app.before_request
 def before_request():
     g.db = baza
@@ -19,8 +21,9 @@ def before_request():
 @app.after_request
 def after_request(response):
     g.db.close()
-    return response 
-
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    

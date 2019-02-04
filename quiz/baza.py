@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  baza.py0
+#  baza.py
 import csv
-import sqlite3
 import os.path
 from modele import *
+
 
 def czy_jest(plik):
     """F. sprawdza, czy plik istnieje na dysku"""
